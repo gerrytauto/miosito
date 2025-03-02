@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Prova</title>
+    <link rel="stylesheet" href="prova.css">
+  </head>
+  <body>
+    <header>
+        <h1>Indovino il personaggio STEAM</h1>
+    </header>
+    
+    <section>
+        <img src="immagine.png"> 
+    </section>
+    <br><br>
+    <section>
+        <p id="domanda"></p>
+        <button onclick=indovinaPersonaggio() id="rigioca">Sfidami!</button>
+        <button onclick=si() id="si">SI</button>
+        <button onclick=no() id="no">NO</button>
+    </section>
+
+
+    <script>
+        document.getElementById("si").hidden=true;
+        document.getElementById("no").hidden=true;
+    </script>
+    
+    
+      <script src="codice.js"></script>
+  </body>
+</html>
