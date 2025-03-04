@@ -204,6 +204,8 @@ let personaggi_originale = [
         //rendo invisibili i pulsanti SI e NO
         document.getElementById("si").hidden=true;
         document.getElementById("no").hidden=true;
+        //faccio riapparire il pulsante "Rigioca"
+        document.getElementById("rigioca").hidden=false;
       }
       else{
       //se ha risposto di no all'ultima domanda non abbiamo indovinato il personaggio
